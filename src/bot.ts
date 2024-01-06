@@ -1,2 +1,4 @@
-import { Client } from 'discord.js';
-import { config } from 'dotenv';
+import { Client, WebSocketManager } from 'discord.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
